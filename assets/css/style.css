@@ -22,10 +22,18 @@ h2 {
   color: #fff;
 }
 
+h2 #logo {
+    font-size: 300%;
+}
+
 #logo {
   float: left;
   font-size: 280%;
   margin-left: 30px;
+}
+
+#logo:hover {
+    color: #800008;
 }
 
 #menu {
@@ -61,7 +69,7 @@ h2 {
     width: 50px;
     height: 50px;
     padding: 15px 0;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 10px;
     text-align: center;
     color: #800008;
@@ -71,6 +79,15 @@ h2 {
   height: 800px;
   width: 100%;
   background: url(../images/babymetal-background5.jpeg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 
   animation-name: hero-zoom;
   animation-duration: 8s;
@@ -94,6 +111,38 @@ h2 {
   }
 }
 
+/*------------------------------------------------Band History */
+
+.band-history {
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 0px;
+    border: 0px;
+}
+
+.history {
+    margin: 0 auto;
+    padding: 0;
+    height: 600px;
+}
+
+/*------------------------------------------------Band members */
+
+.content-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.quotes .page-header {
+    margin-bottom: 15px;
+}
+
+h2 .band-members {
+    text-align: center;
+}
+
 /*------------------------------------------------Footer */
 
 footer{
@@ -115,6 +164,10 @@ footer{
   color: #800008;
 }
 
+.links-merchandise i:hover {
+    color: #fff;
+}
+
 
 
 
@@ -122,13 +175,17 @@ footer{
 /*------------------------------------------------Media Screens */
 
 @media screen and (max-width: 1393px ){
-  #club-ethos {
+  #introduction {
     width: 65%;
     height: 1200px;
     margin: 0 auto;
   }
 
-  #welcome {
+  #menu {
+
+  }
+
+  /*#welcome {
     padding: 30px 0;
     margin-top: 0;
   }
@@ -155,7 +212,7 @@ footer{
     border-bottom-color: #fff;
     padding: 0;
   }
-
+*/
   hr {
     display: none;
   }
@@ -171,17 +228,17 @@ footer{
     line-height: 25px;
   }
 
-  #cover-text{
+  /*#cover-text{
     left: 0px;
   }
-
-  #club-ethos{
+*/
+  #introduction{
     width: 90%;
     height: 1200px;
     margin: 0 auto;
   }
 
-  .left-about-heading, .right-about-heading{
+  /*.left-about-heading, .right-about-heading{
     width: inherit;
   }
 
@@ -200,7 +257,7 @@ footer{
   }
 
 }
-
+*/
 @media screen and (max-width: 800px ){
   #photos{
     column-count: 2;
