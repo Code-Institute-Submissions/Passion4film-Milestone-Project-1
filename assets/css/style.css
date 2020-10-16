@@ -4,6 +4,13 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 body {
@@ -92,10 +99,8 @@ nav i {
 .band-history {
     margin-top: 2%;
     text-align: center;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding: 0px;
-    border: 0px;
+    padding: 0;
+    border: 0;
 }
 
 .history {
@@ -104,9 +109,6 @@ nav i {
     height: 600px;
 }
 
-.history ol {
-    text-align: center;
-}
 
 /*------------------------------------------------Band members */
 
@@ -114,20 +116,12 @@ nav i {
 
 /*------------------------------------------------Footer */
 
-#page-container {
-  position: relative;
-  min-height: 100%;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;   
-}
-
 #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 50px;           
+    position: relative;
+    bottom: 0;
+    width: 644px;
+    height: 20px;
+    margin: 0 auto;
 }
 
 li:hover {
@@ -155,12 +149,8 @@ li:hover {
 
 /*------------------------------------------------Gallery page */
 
-#photos{
-  clear: both;
-  line-height: 0;
-  column-count: 0;
-  column-gap: 0;
-  width: 100%
+img {
+    padding: 80px 0px 0px;
 }
 
 .iframe-container {
@@ -217,9 +207,14 @@ li:hover {
     display: none;
   }
 
-#photos{
-    column-count: 2;
+.column {
+    width: 100%;
   }
+
+/*.photos {
+    padding: 0;
+    column-count: 2;
+} */
 
 }
 
@@ -244,10 +239,15 @@ li:hover {
     display: none;
   }
 
-#photos{
-    column-count: 2;
+.column {
+    width: 100%;
   }
 
+/*.photos {
+    padding: 0;
+    column-count: 2;
+}
+*/
 @media screen and (max-width: 800px ){
   #hero-image {
      height: 500px;
@@ -269,6 +269,12 @@ li:hover {
     display: none;
   }
 
-  #photos{
-    column-count: 2;
+ .column {
+    width: 100%;
   }
+
+ /* .photos {
+    padding: 0;
+    column-count: 2;
+    width: 50%
+} */
