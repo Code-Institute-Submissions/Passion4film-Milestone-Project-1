@@ -19,6 +19,8 @@ body {
   background-color: #000000;
   height: 100%;
   position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 .main-page {
@@ -112,85 +114,70 @@ nav i {
 
 /*------------------------------------------------Band members */
 
-.band-members {
-  height: 600px;
-}
 
-#member-left {
-  padding-top: 30px;
-  width: 33%;
-  float: left;
+.su-metal-member {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: #800008;
+    box-sizing: border-box;
+    border-radius: 10px;
   }
 
-#member-right {
-  padding-top: 30px;
-  width: 33%;
-  float: right;
+.su-metal {
+    width: 200px;
+    height: 200px;
+    background: url(../images/su-metal3.jpg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px 30px 30px 0;
 }
 
-.center-photo {
-  width: 33%;
-  margin:0 auto;
-  }
-
-.band-members hr {
-  border-top: 1px solid #fff;
-  width: 100%;
-  margin: 5px 0;
-}
-
-.member-left-heading {
-  width: 50%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.member-right-heading {
-  width: 50%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.member-right-heading h2{
-  text-align: right;
-}
-
-.member-right-heading p{
-  text-align: right;
-}
-
-.band-members-heading {
-    margin-top: 2%;
-    text-align: justify;
+.member-heading {
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0 0 20px;
     padding: 0;
-    border: 0;
 }
 
-.circle-container {
-  width: 300px;
-  height: 300px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #800008;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
+.su-metal-member p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 20px;
 }
 
-.su-metal-photo-bg {
-  background: url(assets/images/su-metal.jpg) no-repeat center center;
-  height: 100%;
-  border-radius: 50%;
+.moa-metal {
+    width: 200px;
+    height: 200px;
+    background: url(../images/moa-metal3.jpg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px 30px 30px 0;
 }
 
-.moa-metal-photo-bg {
-  background: url(assets/images/moa-metal2.jpg) no-repeat center center;
-  height: 100%;
-  border-radius: 50%;
+.moa-metal-member {
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: #800008;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .moa-metal-member p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 20px;
 }
 
 /*------------------------------------------------Footer */
@@ -236,17 +223,19 @@ img {
 
 .iframe-container {
     position: relative;
-    width: 100%;
+    width: 50%;
     padding-bottom: 56.25%;
+    padding-top: 30px;
     height: 0;
+    overflow: hidden;
 }
 
-.iframe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.iframe-container iframe, .iframe-container object, .iframe-container embed {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
 }
 
 
@@ -430,10 +419,29 @@ form i {
     width: 100%;
   }
 
-/*.photos {
+.band-members {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+#band-members-heading {
+    padding: 30px 0;
+    margin-top: 0;
+  }
+
+  #member-left, #member-right {
+    width: 100%;
+    float: left;
     padding: 0;
-    column-count: 2;
-} */
+  }
+
+  .center-photo {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
 
 }
 
@@ -462,11 +470,25 @@ form i {
     width: 100%;
   }
 
-/*.photos {
-    padding: 0;
-    column-count: 2;
-}
-*/
+.band-members {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  .member-left-heading, .member-right-heading {
+    width: inherit;
+  }
+
+  .member-left-heading h2, .member-right-heading h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .member-left-heading p, .member-right-heading p{
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
 @media screen and (max-width: 800px ){
   #hero-image {
      height: 500px;
@@ -491,9 +513,3 @@ form i {
  .column {
     width: 100%;
   }
-
- /* .photos {
-    padding: 0;
-    column-count: 2;
-    width: 50%
-} */
