@@ -28,12 +28,73 @@
                 <li class="active nav-item mr-2"><a class="nav-link" href="upcoming-shows.html"><i class="far fa-calendar-alt" aria-hidden="true"></i>Upcoming Shows/Sign-up</a></li>
             </ul>
         </div>
-    </nav>
-<section id="background-image">
-    <div>
-    </div>
+</nav>
+<section class="container-fluid">
+        <div class="row">
+            <div class="col-12 bg-image-upcoming-shows section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="upcomingshows-heading uppercase">
+                            Upcoming shows
+                        </h3>
+                    </div>
+                </div>
+                <div class="calendar-items">
+                    <div class="timeline-item" data-dates="08/06/2020">
+                        <h4>Stodola / Warsaw, Poland</h4>
+                        <p>METAL GALAXY WORLD TOUR</p>
+                    </div>
+                    <div class="timeline-item" data-dates="14/06/2020">
+                        <h4>Donington Park Circuit / England, UK</h4>
+                        <p>DOWNLOAD FESTIVAL</p>
+                    </div>
+                    <div class="timeline-item" data-dates="17/06/2020">
+                        <h4>Tivoli Ronda / Utrecht, Netherlands</h4>
+                        <p>METAL GALAXY WORLD TOUR</p>
+                    </div>
+                    <div class="timeline-item" data-dates="23/06/2020">
+                        <h4>La Riviera / Madrid, Spain</h4>
+                        <p>METAL GALAXY WORLD TOUR</p>
+                    </div>
+                    <div class="timeline-item" data-dates="11/01/2021">
+                        <h4>Japan / Makuhari Messe</h4>
+                        <p>KNOTFEST JAPAN 2020 (Rescheduled)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 </section>
 
+<div class="container-fluid">
+    <div class="row">
+        <div class= " col-12 form-section">
+            <form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
+                <h2>Sign-up to be notified of upcoming shows! <i class="far fa-calendar-alt"></i>
+                </h2>
+                    <label for="fname">First Name</label>
+                    <input class="text-input" type="text" id="fname" name="first_name" required>
+    
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" type="text" id="lname" name="last_name" required>
+       
+                    <label for="email">Email Address</label>
+                    <input class="text-input" type="email" id="email" name="email_address" required>
+        
+                    <label for="road">UK</label>
+                    <input type="radio" id="uk" name="location_preference" value="uk" required>
+        
+                    <label for="trail">Global</label>
+                    <input type="radio" id="global" name="location_preference" value="global">
+        
+                    <label for="both">Both</label>
+                    <input type="radio" id="both" name="location_preference" value="both">
+        
+                    <input class="join-button" type="submit" value="Sign-Up!">
+            </form>
+        </div>
+    </div>
+</div>
+ 
 
 
 
