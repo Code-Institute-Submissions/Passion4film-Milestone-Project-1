@@ -112,9 +112,86 @@ nav i {
 
 /*------------------------------------------------Band members */
 
+.band-members {
+  height: 600px;
+}
 
+#member-left {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  }
 
+#member-right {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+}
 
+.center-photo {
+  width: 33%;
+  margin:0 auto;
+  }
+
+.band-members hr {
+  border-top: 1px solid #fff;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.member-left-heading {
+  width: 50%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.member-right-heading {
+  width: 50%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.member-right-heading h2{
+  text-align: right;
+}
+
+.member-right-heading p{
+  text-align: right;
+}
+
+.band-members-heading {
+    margin-top: 2%;
+    text-align: justify;
+    padding: 0;
+    border: 0;
+}
+
+.circle-container {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #800008;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.su-metal-photo-bg {
+  background: url(assets/images/su-metal.jpg) no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.moa-metal-photo-bg {
+  background: url(assets/images/moa-metal2.jpg) no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+}
 
 /*------------------------------------------------Footer */
 
