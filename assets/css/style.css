@@ -3,9 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
+ }
 
 html {
     margin: 0;
@@ -98,17 +96,17 @@ nav i {
 
 /*------------------------------------------------Band History */
 
+#introduction {
+    text-align: center;
+}
+
 .band-history {
-    margin-top: 2%;
-    text-align: justify;
-    padding: 0;
-    border: 0;
+    font-size: 18px;
 }
 
 .history {
-    margin: 0 auto;
-    padding: 0;
-    height: 600px;
+    font-size: 18px;
+    text-align: center;
 }
 
 
@@ -182,12 +180,18 @@ nav i {
 
 /*------------------------------------------------Footer */
 
-#footer {
-    position: relative;
-    bottom: 0;
-    width: 644px;
-    height: 20px;
-    margin: 0 auto;
+.footer {
+    padding: 5px 0;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-top: 2px solid #800008;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #800008;
+    background-color: transparent;
 }
 
 li:hover {
@@ -223,7 +227,7 @@ img {
 
 .iframe-container {
     position: relative;
-    width: 50%;
+    width: 100%;
     padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
@@ -243,7 +247,7 @@ img {
 /*------------------------------------------------Upcoming shows page */
 
 
-.spotify-container {
+/*.spotify-container {
     position: relative; 
     padding-bottom: 56.25%; 
     height: 0; 
@@ -255,7 +259,7 @@ img {
     position: absolute; 
     top: 80px; 
     left: 0; 
- }
+ } */
 
  .uppercase {
     text-transform: uppercase;
@@ -323,9 +327,9 @@ img {
 
 .bg-image-upcoming-shows {
     clear: left;
-    background: url(../images/babymetal-background1.jpeg);
+    background: url(../images/babymetal-dark2.jpg);
     background-size: cover;
-    background-position: 100% 60%;
+    background-position: center;
     height: 800px;
     z-index: -1;
     padding: 70px 10px;
@@ -337,7 +341,6 @@ img {
     background-size: cover;
     background-position: center;
     height: 800px;
-    z-index: -1;
     margin-top: 30px;
 }
 
@@ -361,7 +364,7 @@ form i {
     color: #800008;
 }
 
-.text-input{
+.text-input {
   background: transparent;
   color: #fafafa;
   width: 100%;
@@ -371,11 +374,11 @@ form i {
   border-radius: 2px;
 }
 
-.text-input:hover{
+.text-input:hover {
   border-color: #800008;
   }
   
-.join-button{
+.join-button {
   margin-top: 20px;
   border-radius: 2px;
   padding: 15px 32px;
