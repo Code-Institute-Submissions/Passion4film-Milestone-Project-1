@@ -21,12 +21,11 @@ body {
   padding: 0;
 }
 
-.main-page {
- min-height: 100vh;
- overflow: hidden;
- display: block;
- position: relative;
- padding-bottom: 200px;
+.section-divider {
+    border: 5px;
+    border-top: 2px solid #800008;
+    margin: 5px;
+    padding: 5px;
 }
 
 /*------------------------------------------------Nav bar & Hero Img */
@@ -107,81 +106,59 @@ nav i {
 .history {
     font-size: 18px;
     text-align: center;
+    padding: 0;
 }
 
 
 /*------------------------------------------------Band members */
 
-
-.su-metal-member {
-    position: absolute;
-    top: 75%;
-    left: 20%;
-    transform: translate(-50%,-50%);
-    width: 600px;
-    padding: 30px;
-    background: #800008;
-    box-sizing: border-box;
-    border-radius: 10px;
-  }
-
-.su-metal {
-    width: 200px;
-    height: 200px;
-    background: url(../images/su-metal3.jpg);
-    border-radius: 50%;
-    float: left;
-    shape-outside: circle();
-    margin: 30px 30px 30px 0;
+#band-members {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .member-heading {
-    font-size: 30px;
+    text-align: center;
     text-decoration: underline;
-    margin: 0 0 20px;
-    padding: 0;
+    font-size: 28px;
 }
 
-.su-metal-member p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    line-height: 20px;
-}
-
-.moa-metal {
-    width: 200px;
-    height: 200px;
-    background: url(../images/moa-metal3.jpg);
-    border-radius: 50%;
+.rounded-circle {
+    padding: 0 20px 10px;
+    border-radius: 50%!important;
+    text-align: center;
     float: left;
-    shape-outside: circle();
-    margin: 30px 30px 30px 0;
+    border-style: solid;
+    border-color: #000;
 }
 
-.moa-metal-member {
-    position: absolute;
-    top: 75%;
-    left: 80%;
-    transform: translate(-50%,-50%);
-    width: 600px;
-    padding: 30px;
-    background: #800008;
+.band-members {
     box-sizing: border-box;
-    border-radius: 10px;
-  }
+    border: 30px;
+    background-color: #800008;
+}
 
-  .moa-metal-member p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    line-height: 20px;
+.band-members p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.spotify-embeds {
+  width: 100%;
+  padding: 50px;  
+}
+
+iframe {
+    display: block;
+    transition: opacity 0.125s;
+    width: 80%;
+    margin:0 auto;
 }
 
 /*------------------------------------------------Footer */
 
 .footer {
-    padding: 5px 0;
     color: #fff;
     text-align: center;
     background-color: #000;
@@ -246,22 +223,7 @@ img {
 
 /*------------------------------------------------Upcoming shows page */
 
-
-/*.spotify-container {
-    position: relative; 
-    padding-bottom: 56.25%; 
-    height: 0; 
-    overflow: hidden; 
-    max-width: 100%; 
-} 
-    
-.spotify-container iframe, .spotify-container object, .spotify-container embed { 
-    position: absolute; 
-    top: 80px; 
-    left: 0; 
- } */
-
- .uppercase {
+.uppercase {
     text-transform: uppercase;
 }
 
@@ -396,123 +358,29 @@ form i {
 
 /*------------------------------------------------Media Screens */
 
-@media screen and (max-width: 1393px ){
- 
-  #hero-image {
-     height: 700px;
-     width: 100%;
-  }
-
-  #introduction {
-    width: 65%;
-    height: 95px;
-    margin: 0 auto;
-    padding-top: 15px;
-  }
-
-  .history {
-      padding-top: 20px;
-  }
-
-  hr {
-    display: none;
-  }
-
-.column {
-    width: 100%;
-  }
-
-.band-members {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
-  }
-
-#band-members-heading {
-    padding: 30px 0;
-    margin-top: 0;
-  }
-
-  #member-left, #member-right {
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-
-  .center-photo {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-
-}
-
-@media screen and (max-width: 943px ){
-  #hero-image {
-     height: 600px;
-     width: 100%;
-  }
-
-  #introduction {
-    width: 65%;
-    height: 130px;
-    margin: 0 auto;
-    padding-top: 15px;
-  }
-
-.history {
-      padding-top: 10px;
-  }
-
-  hr {
-    display: none;
-  }
-
-.column {
-    width: 100%;
-  }
-
-.band-members {
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-  }
-
-  .member-left-heading, .member-right-heading {
-    width: inherit;
-  }
-
-  .member-left-heading h2, .member-right-heading h2 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .member-left-heading p, .member-right-heading p{
-    text-align: center;
-    padding: 0 20px 0 20px;
-  }
 @media screen and (max-width: 800px ){
   #hero-image {
-     height: 500px;
+     height: 80%;
      width: 100%;
+     margin: 0;
+     padding: 0;
+     border: 0;
   }
 
-  #introduction {
-    width: 65%;
-    height: 130px;
-    margin: 0 auto;
-    padding-top: 10px;
-  }
+    #hero-outer {
+        height: 80%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
 
-.history {
-      padding-top: 5px;
-  }
-
-  hr {
-    display: none;
-  }
-
- .column {
+    iframe {
+    display: block;
+    transition: opacity 0.125s;
     width: 100%;
-  }
+    margin:0 auto;
+}
+}
