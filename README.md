@@ -1,17 +1,17 @@
 <img src="https://preview.redd.it/3dg8fywxr9s51.png?width=1153&format=png&auto=webp&s=2352e77137b24e578983b18c51b5f7675e860413" style="margin: 0;">
 
-## BABYMETAL | 10 YEARS!
-As this year marks the 10 year anniversary of the launch of one my favourite bands, and as they are so unique, I took this opportunity to create a website dedicated to them, to celebrate their 10 years with a brief history, band-member information, images and videos spanning their career to this point and a place where people could see their upcoming shows and sign-up for more information. 
+# BABYMETAL | 10 YEARS!
+As this year marks the 10 year anniversary of the launch of one my favourite bands, and as they are so unique, I took this opportunity to create a website dedicated to them, to celebrate their 10 years with a brief history, band-member information, images and videos spanning their career to this point and a place where people could see when their upcoming shows were and sign-up for more information. 
 
-## UX
+## User stories
 
-Exteral user's goal: the site users are fans and potenital fans of the band, who may wish to learn a little about the band's history and members. See photos of the band from 2011-2019, watch some of their best music videos as well as seeing upcoming shows - dates and locations. 
+As a fan, I want to learn more about the band's history and members, so that I will understand where they come from and how they formed.
 
-Site owner's goals: The band are interested in selling more of their music/merchandise, connecting to more fans/potential fans and advertising their upcoming shows. Furthermore, as their audience is becoming more global, they wish to reach a wider international fan-base.
+As a potential fan, I want to see examples of the band's music and see their pictures over the years, so I can see if I like their music and follow them.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+As a fan/potenital fan, I want to see where they are performing next and sign-up for more information, so that I can go to see one of their shows live.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
+As a site owner, I want the band to sell more of their music and merchandise, so I will have links to these, so that the band can connect to more fans/potential fans and advertising their upcoming shows. Furthermore, as their audience is becoming more global, they wish to reach a wider international fan-base.
 
 ## Wireframes page designs:
 <img src="wireframes/home.png" style="margin: 0;">
@@ -20,40 +20,27 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Home-page: This page is the landing page when you visit the site, so it needed to be clear about what the website was about and contain information about the band and the band-members. There is a nav-bar and a footer which is the same accross all pages which allows the user to navigate the site easily.
 
-## Existing Features
 
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Gallery: This page is where users can see an assortment of pictures of the band, from when they were very young until recently. It also contains a select few of their newest and most popular music videos, along with one video at the end that is made by combining all the pro-shots of the band for one of their songs - this one was chosen as it features the Kami band (the musicians) and allows users to see them after a breif explanation of them on the home-page.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-## Features Left to Implement
+Upcoming-shows/Sign-up: This page allows the user to see in a simple time-line format the upcoming shows for the band, including the locations and whether it's a festival or part of their own tour. Underneath this is a sign-up form, where the user can choose to submit to receive email updates about the band's performances and can choose their preference for UK only, Global or both, as the band is international and as the list of upcoming shows makes clear they tour all over the world. 
 
-A translation of the lyrics in the songs from the original Japanese, to the language of the user - first starting with English as the most widely spoken language of the international fan-base.
+
+An additional feature that might be nice to be implemented in the future is a translation of the lyrics in the songs from the original Japanese, to the language of the user - first starting with English as the most widely spoken language of the international fan-base.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In this project I used HTML and CSS. I also made use of the Bootstrap frame-work library to assist in making the site mobile-responsive: https://getbootstrap.com/
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+I tested my website on people my own age, including someone who had been to one of Babymetal's live concerts and would test to see if the theme and layout matched the band's style. I also tested the website on people in their 60's and 70's, as it is important for a website to be user-friendly for all ages and internet abilities. All tests were successful and the users could navigate and enjoy the website for it's intended purpose.
 
 My project is nice and spaced out on desktop's and large screen resolutions, as the size decreases it adapts and text/images that can sit next to each other slot neatly ontop of each other and ensure that they can be read and seen at small screen sizes and on mobiles.
 
@@ -61,19 +48,24 @@ I did struggle to make my project mobile responsive at first, I received some ad
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
+I deployed the project to a hosting platform using GitHub Pages.
 
 ## Credits
 
 Content
-The text for section Y was copied from the Wikipedia article Z
+
+The text for the band-history was taken from a few different sources and edited together; from Wikipedia: https://en.wikipedia.org/wiki/Babymetal, from Inverse https://www.inverse.com/article/12922-a-brief-history-of-japanese-metal-idol-band-babymetal & a fan-site https://babymetal.fandom.com/wiki/BABYMETAL
+
+The band-member information was taken from the Wikipedia articles: https://en.wikipedia.org/wiki/Suzuka_Nakamoto & https://en.wikipedia.org/wiki/Moa_Kikuchi
+
 Media
 
-The photos used in this site were obtained from ...
+The photos used in this site were obtained from Google/images.
+
+The photos used in this site were obtained from www.youtube.com
 
 ## Acknowledgements
 
-I received inspiration for this project from my Mentor; Antonio Rodriguez
+I received inspiration for this project from the mini-projects, especially the Love Running & Resume sites built as part of the course, my Mentor; Antonio Rodriguez and from Babymetal's officail site and youtube channel
 
 **DISCLAIMER: This project is for educational purposes only, no materials/files are intended for any commercial use. In this document all sources will be credited.**
