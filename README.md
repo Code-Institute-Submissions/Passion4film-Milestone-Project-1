@@ -1,5 +1,7 @@
 <img src="https://preview.redd.it/3dg8fywxr9s51.png?width=1153&format=png&auto=webp&s=2352e77137b24e578983b18c51b5f7675e860413" style="margin: 0;">
 
+https://passion4film.github.io/Milestone-Project-1/
+
 # BABYMETAL | 10 YEARS!
 As this year marks the 10 year anniversary of the launch of one my favourite bands, and as they are so unique, I took this opportunity to create a website dedicated to them, to celebrate their 10 years with a brief history, band-member information, images and videos spanning their career to this point and a place where people could see when their upcoming shows were and sign-up for more information. 
 
@@ -17,6 +19,7 @@ As a site owner, I want the band to sell more of their music and merchandise, so
 <img src="wireframes/home.png" style="margin: 0;">
 <img src="wireframes/gallery.png" style="margin: 0;">
 <img src="wireframes/upcoming-shows.png" style="margin: 0;">
+<img src="wireframes/mobile-screens.png" style="margin: 0;">
 
 ## Features
 
@@ -35,12 +38,22 @@ An additional feature that might be nice to be implemented in the future is a tr
 
 In this project I used HTML and CSS. I also made use of the Bootstrap frame-work library to assist in making the site mobile-responsive: https://getbootstrap.com/
 
+GitHub,
+Gitpod,
+Responsinator, 
+Balsamiq wireframes,
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/,
+Chrome browser & Microsoft Edge.
+
 JQuery
 The project uses JQuery to simplify DOM manipulation.
 
 ## Testing
 
 I tested my website on people my own age, including someone who had been to one of Babymetal's live concerts and would test to see if the theme and layout matched the band's style. I also tested the website on people in their 60's and 70's, as it is important for a website to be user-friendly for all ages and internet abilities. All tests were successful and the users could navigate and enjoy the website for it's intended purpose.
+
+I also tested my site's responsiveness using responsinator.com. I ran the code through the W3 HTML validator site and the Jigsaw CSS validator site. I also checked the site on other internet browsers, like Microsoft Edge to ensure it loaded correctly.
 
 My project is nice and spaced out on desktop's and large screen resolutions, as the size decreases it adapts and text/images that can sit next to each other slot neatly ontop of each other and ensure that they can be read and seen at small screen sizes and on mobiles.
 
@@ -60,9 +73,9 @@ The band-member information was taken from the Wikipedia articles: https://en.wi
 
 Media
 
-The photos used in this site were obtained from Google/images.
+The photos used in this site were obtained from Google/images. There are alot of images used so an example of source sites are:  https://www.moshimoshi-nippon.jp/263692, https://www.kerrang.com/features/babymetal-communication-became-much-more-important-to-us-this-year/ & http://bmdb.sakura.ne.jp/bm/articles/site/48?page=61
 
-The photos used in this site were obtained from www.youtube.com
+The videos used in this site were obtained from www.youtube.com
 
 ## Acknowledgements
 
