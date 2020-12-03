@@ -52,13 +52,24 @@ The pages as shown on a mobile wireframes:
 
 -   Upcoming-shows: This page allows the user to see in a simple time-line format the upcoming shows for the band, including the locations and whether it's a festival or part of their own tour. Underneath this is a sign-up form, where the user can choose to submit to receive email updates about the band's performances and can choose their preference for UK only, Global or both, as the band is international and as the list of upcoming shows makes clear they tour all over the world. The sign-up form is coded to produce an error if the required information isnt provided, and shows as a success when all required information is inputted correctly. The fields for typing the email etc have a white border until the mouse hovers over to clearly show the user where to click to move between the fields. Also the sign-up button changes from dark red to white when the mouse moves over, so it is clear that this button should be clicked.
 
+### Nav Bar
+The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly. As the mouse hovers over the page link a red underline appears to show the user what option they would be clicking on, the active page remains underlined so that a uder can always tell from looking at the nav bar what page they are currently on.
+
+### Footer
+At the bottom of each page is a footer with links to social media and merchandise, which are clearly demonstrated using FontAwesome icons that are clear and accepted by users. There is also a 'Return to Top' option, which takes users to the top of whatever page they are on without the need of scolling up for added convenience. As the mouse hovers over each icon the colour changes from dark red to white, to highlight the link and make it clear to users that the icon does something when clicked.
+
+
 ### Future Features
 -   An additional feature that might be nice to be implemented in the future is a translation of the lyrics in the songs from the original Japanese, to the language of the user - first starting with English as the most widely spoken language of the international fan-base.
 
 ## Technologies Used
 
+### Languages Used
 
 -   In this project I used [HTML5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets). 
+
+### Frameworks, Libraries & Programs Used
+
 -   I also made use of the [Bootstrap framework library](https://getbootstrap.com/) to assist in making the site mobile-responsive.
 -   [Google Fonts:](https://fonts.google.com/) Google fonts were used to import the 'Nanum Gothic' font into the style.css file which is used on all pages throughout the project.
 -   [Font Awesome:](https://fontawesome.com/) Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
@@ -93,10 +104,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 </p>
 
 ### Testing User Stories from User Experience (UX) Section
-
-The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly. As the mouse hovers over the page link a red underline appears to show the user what option they would be clicking on, the active page remains underlined so that a uder can always tell from looking at the nav bar what page they are currently on.
-
-At the bottom of each page is a footer with links to social media and merchandise, which are clearly demonstrated using FontAwesome icons that are clear and accepted by users. There is also a 'Return to Top' option, which takes users to the top of whatever page they are on without the need of scolling up for added convenience. As the mouse hovers over each icon the colour changes from dark red to white, to highlight the link and make it clear to users that the icon does something when clicked.
 
 - #### Existing fan visitor goals
     1. As an existing fan of the band, I want to learn more about the band's history and members, so that I will understand where they come from and how they formed.
