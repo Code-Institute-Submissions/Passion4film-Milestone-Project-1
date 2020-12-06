@@ -28,7 +28,7 @@ As this year marks the 10 year anniversary of the launch of one my favourite ban
     -   #### Typography
         -   The Nanum Gothic font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Nanum Gothic is easy to read, attractive and appropriate to the band's asthetic. The font colour throughout is white to make it stand-out and for ease of reading against the darker colour scheme.
     -   #### Imagery
-        -   Imagery is important for the band and they have alot of images over the 10 years to choose from. The large, background hero image is was chosen as it fits with the colour scheme and it's a very powerful image to catch the user's attention.
+        -   Imagery is important for the band and they have alot of images over the 10 years to choose from. The large, background hero image was chosen as it fits with the colour scheme and it's a very powerful image to catch the user's attention.
 
 ## Wireframes page designs:
 Home page wireframe:
