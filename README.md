@@ -134,6 +134,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7 Plus & Android phones to check it loaded correctly.
 -   The website was tested on Responsinator to ensure responsiveness on all devices.
 -   A large amount of testing was done to ensure that all pages were linking correctly and the external links worked. This was done by frequently moving from one page to another and clicking the external links for all pages on all devices.
+-   The sign-up form was tested to ensure that all the required information had to be submitted or a 'required' message would show. Once all the correct information is submitted and the sign-up button clicked a Code Institute 'success' message shows, which proves that the form's code works correctly.
 -   All videos were extensively tested to check they played only when clicked on by the user, and that they played the correct content whatever device size or type.
 -   The spotify playlist was tested to ensure it only played when clicked by the user, and that it played successfully on all device sizes and types.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues, they reported a success on all fronts.
